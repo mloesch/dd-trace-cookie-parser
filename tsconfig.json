@@ -1,0 +1,21 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "nodenext",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "target": "ESNext",
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "composite": true,
+    "skipLibCheck": true
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

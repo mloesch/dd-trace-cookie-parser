@@ -1,0 +1,21 @@
+{
+  "name": "dd-trace-cookie-parser",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "build": "rm -rf dist && tsc --build --force -v",
+    "start": "node --loader dd-trace/loader-hook.mjs dist/app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dd-trace": "5.72.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.9",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.7.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
